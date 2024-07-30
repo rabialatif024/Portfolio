@@ -13,7 +13,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "/b1.svg",
+    img: "./b1.svg",
     spareImg: "",
   },
   {
@@ -43,8 +43,8 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
+    img: "./grid.svg",
+    spareImg: "./b4.svg",
   },
 
   {
@@ -54,8 +54,8 @@ export const gridItems = [
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
+    img: "./b5.svg",
+    spareImg: "./grid.svg",
   },
   {
     id: 6,
@@ -74,7 +74,7 @@ export const projects = [
     id: 1,
     title: "Sports Club Guide App Design",
     des: "Explore the App design of Sports Club App",
-    img: "/p1.png",
+    img: "./p1.png",
     iconLists: [],
     link: "https://www.figma.com/design/v7fHCWIoYiikgjRFplz6eU/SPORT-Club-Guide---Clubs-Directory-%26-Info-App-(Community)?node-id=0-1&t=UGwCLwgna7mxBIAW-0",
   },
@@ -82,7 +82,7 @@ export const projects = [
     id: 2,
     title: "Digital Agency Landing Page web design",
     des: "Simplify your problems by taking solutions from us.",
-    img: "/p2.png",
+    img: "./p2.png",
     iconLists: [],
     link: "https://www.figma.com/design/Lpk43p9XC3PgyooUu3vye8/DigitalAgencyLandingPageDesign?t=UGwCLwgna7mxBIAW-0",
   },
@@ -90,7 +90,7 @@ export const projects = [
     id: 3,
     title: "Furnite Web Design",
     des: "A REAL Software-as-a-Service app with Furniture App.",
-    img: "/p3.png",
+    img: "./p3.png",
     iconLists: [],
     link: "https://www.figma.com/design/FSd0UbPecbgzc64I7Go0os/FurnitureShop?t=UGwCLwgna7mxBIAW-0",
   },
@@ -98,7 +98,7 @@ export const projects = [
     id: 4,
     title: "Habit Builder Application Design",
     des: "Created the design of Habit Builder Application.",
-    img: "/p4.png",
+    img: "./p4.png",
     iconLists: [],
     link: "https://www.figma.com/design/lv3Fb4roLVDdHBdXMEEc2j/Pixel-True---Habit-Builder-UI-Kit?node-id=0-1&t=UGwCLwgna7mxBIAW-0",
   },
@@ -141,32 +141,32 @@ export const companies = [
   {
     id: 1,
     name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
+    img: "./cloud.svg",
+    nameImg: "./cloudName.svg",
   },
   {
     id: 2,
     name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
+    img: "./app.svg",
+    nameImg: "./appName.svg",
   },
   {
     id: 3,
     name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
+    img: "./host.svg",
+    nameImg: "./hostName.svg",
   },
   {
     id: 4,
     name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
+    img: "./s.svg",
+    nameImg: "./streamName.svg",
   },
   {
     id: 5,
     name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
+    img: "./dock.svg",
+    nameImg: "./dockerName.svg",
   },
 ];
 
@@ -176,44 +176,44 @@ export const workExperience = [
     title: "Web Development Intern",
     desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "/exp1.svg",
+    thumbnail: "./exp1.svg",
   },
   {
     id: 2,
     title: "Web Dev Intern",
     desc: "Designed and developed mobile apps using React Native and Figma.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp2.svg",
+    thumbnail: "./exp2.svg",
   },
   {
     id: 3,
     title: "Freelance Web Dev Project",
     desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "/exp3.svg",
+    thumbnail: "./exp3.svg",
   },
   {
     id: 4,
     title: "UI UX Developer",
     desc: "Developed and maintained user-facing features using modern design tools.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "./exp4.svg",
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "/git.svg",
+    img: "./git.svg",
     link: "https://github.com/rabialatif024",
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "./twit.svg",
   },
   {
     id: 3,
-    img: "/link.svg",
+    img: "./link.svg",
     link: "https://www.linkedin.com/in/rabia-latif-1b6691223/",
   },
 ];
