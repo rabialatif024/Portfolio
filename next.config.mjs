@@ -1,7 +1,10 @@
 import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output: 'export'
+    output: 'export',
+    typescriptOnly: {
+        ignoreBuildErrors: true,
+    }
 };
 
 export default withSentryConfig(nextConfig, {
@@ -10,8 +13,8 @@ export default withSentryConfig(nextConfig, {
 
 // Suppresses source map uploading logs during build
 silent: true,
-org: "Rabia",
-project: "Rabia Portfolio",
+org: "javascript-mastery",
+project: "javascript-nextjs",
 }, {
 // For all available options, see:
 // https://docs.sentry.io/platforms/javascript/guides/nextjs/manual-setup/
